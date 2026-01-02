@@ -414,15 +414,20 @@ a {
 .feedback {
     margin-top: 135px;
     padding: 96px 0;
-    height: 380px;
     background-color: #2e2100;
+}
 
+.feedback .feedback-list {
+    display: flex;
+    overflow: hidden;
 }
 
 .feedback .feedback-item {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-shrink: 0;
 }
+
 
 .feedback-item .avatar {
     width: 72px;
